@@ -1,0 +1,57 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_start"
+                tools:context="com.startup.colleague.app.StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="55sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/desc"
+        android:textSize="@dimen/font_desc_size"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        />
+
+
+    <Button
+        android:id="@+id/register"
+        android:text="@string/account_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selectorb"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:text="@string/account_cfm_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selectorw"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="22sp"
+        />
+</LinearLayout>

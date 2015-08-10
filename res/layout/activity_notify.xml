@@ -1,0 +1,57 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                tools:context="com.startup.colleague.app.NotifyActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBaseline="@id/title"
+            android:text="返回"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_normal_size"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="消息提醒"
+            android:textSize="@dimen/font_title_size"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black"
+        />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/light_gray1"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+</LinearLayout>

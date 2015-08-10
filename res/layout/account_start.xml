@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.startup.colleague.app.MainActivity" ><!-- android:background="@drawable/background_start" -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/email"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_normal_size"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:hint="@string/account_email_hint"
+            android:textColorHint="@color/light_gray"
+            android:background="@null"
+            />
+        
+    </LinearLayout>
+	<View
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        />
+    <Button
+        android:id="@+id/next_step"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selectorb"
+        android:textSize="22sp"
+        android:text="@string/next_step"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="120dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/noemail"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:clickable="true"
+        android:onClick="onNoEmailClicked"
+        />
+</LinearLayout>

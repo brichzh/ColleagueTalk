@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="@string/title"
+            android:textSize="@dimen/font_title_size"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/company"
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:text="Tencent"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:textColor="@color/light_blue"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/post"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/post"
+            />
+    </RelativeLayout>
+
+	<View
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black"
+        />
+	
+    
+	<LinearLayout
+	    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    ><!-- android:background="@color/lite_gray" -->
+	        <!-- <TextView
+	        android:id="@+id/notify"
+	        android:text="@string/notify_text"
+	        android:gravity="center"
+	        android:layout_gravity="center"
+	        android:layout_width="120dp"
+	        android:textColor="@color/white"
+	        android:background="@color/light_blue"
+	        android:layout_marginTop="5dp"
+	        android:layout_height="30dp"/> -->
+			<TextView
+		        android:id="@+id/loadfailed"
+		        android:text="@string/load_failed"
+		        android:gravity="center"
+		        android:layout_gravity="center"
+		        android:textColor="@color/black"
+		        android:textSize="20sp"
+		        android:layout_marginTop="200dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:clickable="true"
+		        android:onClick="onLoadFailed"
+		        />
+			<com.startup.colleague.view.XListView
+		        android:id="@+id/listview"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:cacheColorHint="#00000000"
+		 		android:divider="@color/lite_gray"
+		 		android:dividerHeight="1dp">
+		    </com.startup.colleague.view.XListView>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              tools:context="com.startup.colleague.app.ActiveEmailActivity">
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/account_active_tip"
+        android:textSize="20sp"
+        android:textColor="@color/yellow"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginTop="40dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <Button
+        android:id="@+id/open_email_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selectorb"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:text="@string/account_acctive_open_email"
+        android:onClick="onClickOpenEmail"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selectorw"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:text="@string/account_active_done"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/resend_email"
+        android:clickable="true"
+        android:onClick="onResendClick"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

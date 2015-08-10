@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">同事说</string>
+    <string name="hello_world">同事说Demo 演示</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_out">退出</string>
+    <string name="register_title">设置登录账户</string>
+    <string name="register_desc">任何人查不到你的邮箱，也不可以用邮箱来登录</string>
+    <string name="account_id">登录ID:</string>
+    <string name="account_psw">密码:</string>
+    <string name="account_cfm_psw">确认密码:</string>
+    <string name="account_register">注册</string>
+    <string name="account_cfm_register">注册完成</string>
+    <string name="account_id_hint">非邮件地址</string>
+    <string name="passwd_hint">英文加数字不少于6位</string>
+    <string name="passwd_cfm_hint">请再次输入密码</string>
+    <string name="account_cfm_login">登录</string>
+    <string name="title">同事说</string>
+    <string name="desc">和同事聊八卦</string>
+    <string name="email">公司邮箱</string>
+    <string name="noemail">没有公司邮箱？</string>
+    <string name="account_email_hint">只用于找到你的同事</string>
+    <string name="account_already">已有账户直接登录</string>
+    <string name="account_active_tip">注册邮件已经发至你的公司邮箱\n请注意查收并完成验证，之后\n你的账号不会绑定邮箱信息</string>
+    <string name="account_active_done">我已激活</string>
+    <string name="resend_email">未收到邮件？ 重新发送</string>
+    <string name="account_acctive_open_email">打开手机邮箱</string>
+    <string name="company_unopen_tip">您所在的公司尚未开放，超过1000人申请的公司会优先开放，你可以添加微信号tongshishuo获取最新消息</string>
+     <string name="invite_friends">邀请好友</string>
+    <string name="next_step">下一步</string>
+    <string name="dircet_login">已有账号直接登录</string>
+    <string name="notify_text">有 3 条新通知</string>
+    <string name="load_failed">网络状况不好，加载失败!^_^\n\n点击尝试重新加载</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_note_main">NoteMain</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="note_content_sample">问下老同事，公司发的股票，卖的时候要扣多少钱</string>
+    <string name="note_bottom_sample">阅读 0 评论 0 </string>
+    <string name="title_activity_new_note">NewNoteActivity</string>
+    <string name="title_activity_unopen_company">NewNoteActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="new_note_edit_hint">匿名发表，只有同事能看到</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="note_activity_comment">参与讨论</string>
+    <string name="note_activity_send">发送</string>
+    
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <string name="note_more_tip">请选择你要的操作</string>
+    <string name="note_more_cancel">取消</string>
+    
+    
+    <string name="errcode_success">发送成功</string>
+	<string name="errcode_cancel">发送取消</string>
+	<string name="errcode_deny">发送被拒绝</string>
+	<string name="errcode_unknown">发送返回</string>
+</resources>
